@@ -1,0 +1,1 @@
+sqrt din n de a = pow(a, 1/n)
