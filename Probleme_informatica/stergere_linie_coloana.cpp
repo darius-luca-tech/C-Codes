@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-	int m[101][101];
 	int r;
 	cout<<"r=";
 	cin>>r;
@@ -18,7 +17,8 @@ int main() {
 	int y;
 	cout<<"y(coloana)=";
 	cin>>y;
-
+	int m[r][c];
+	
 	for(int i = 0; i < r;i++) {
 		for(int j = 0; j < c; j++) {
 			cout<<"m["<<i<<"]["<<j<<"]=";
@@ -35,6 +35,7 @@ int main() {
 		cout<<endl;
 	}
 	cout<<endl;
+	
 	for(int i = x; i < r; i++) {
 		for(int j = 0; j < c; j++) {
 			m[i][j] = m[i + 1][j];
@@ -49,14 +50,12 @@ int main() {
 
 	for(int i = 0; i < r; i++) {
 		for(int j = 0; j < c; j++) {
-			if(m[i][j] == 0) {
-				//nada
-			} else {
-				cout<<m[i][j]<<" "; 
-			}
+			cout<<m[i][j]<<" "; 
+			
 		}
 		cout<<endl;
 	}
+	
 	
 	return 0;
 }
