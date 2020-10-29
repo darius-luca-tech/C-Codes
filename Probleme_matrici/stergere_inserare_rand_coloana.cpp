@@ -84,7 +84,7 @@ int main() {
             cout<<endl<<"Dupa stergerea liniei "<<coloana<<" ,matricea arata asa:"<<endl;
             c--;
             afisare_matrice(r, c);
-            cout<<"Actuala dimensiune:"<<r <<" * "<<c<<endl;
+            cout<<"Actual a dimensiune:"<<r <<" * "<<c<<endl;
             break;
         
         case 3:
