@@ -2,6 +2,11 @@
 #include <cstring>
 using namespace std;
 
+
+#include <iostream>
+#include <cstring>
+using namespace std;
+
 class CharPointer {
 private:
     friend istream &operator>>(istream &in, CharPointer &str);
@@ -62,9 +67,10 @@ size_t CharPointer::get_size() {
     return count;
 }   
 
+
 int main() {
-    CharPointer str = "Luca";
-    cout<<"The value:"<<str<<endl;
-    cout<<"The size:"<<str.get_size()<<endl;
+    CharPointer output {"Luiza's coordinates at 23:10: 45.7966227,20.7199777,21"};
+    cout<<output<<endl;
+
     return 0;
 }

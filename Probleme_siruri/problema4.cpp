@@ -18,5 +18,6 @@ int main() {
     p -= strlen(str);
     cout<<endl<<"Valoare pointer:"<<p<<" "<<*p<<" "<<&p<<endl;
     
+    cout<<strlen("abc")<<endl;
     return 0;
 }

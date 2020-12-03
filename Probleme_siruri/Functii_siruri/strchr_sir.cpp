@@ -20,7 +20,7 @@ int strchr_custom(char *s, char c) {
 }
 
 int main() {
-    char str[] = "ababab";
+    char str[] = "cuvant";
     char *p = str;
     cout<<p<<" "<<*p<<endl;
     p = strchr(str, 'a');

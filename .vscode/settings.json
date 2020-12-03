@@ -6,6 +6,23 @@
         "iosfwd": "cpp",
         "iostream": "cpp",
         "__config": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "sstream": "cpp",
+        "functional": "cpp",
+        "typeinfo": "cpp",
+        "string": "cpp",
+        "shared_mutex": "cpp",
+        "regex": "cpp",
+        "__threading_support": "cpp",
+        "clocale": "cpp",
+        "cstddef": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "locale": "cpp"
     }
 }
