@@ -6,9 +6,8 @@ int main() {
     
     cout<<"n="; 
     cin>>n; 
-    d = 2;
+    d = 5;
     while (n > 1) { 
-        p = 0; 
         while (n % d == 0) { 
             p++; 
             n = n / d; 

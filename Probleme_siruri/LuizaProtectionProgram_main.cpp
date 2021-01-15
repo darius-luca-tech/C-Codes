@@ -52,6 +52,9 @@ CharPointer::~CharPointer() {
     delete[] temp;
     delete[] _p;
     cout<<"(Destructor)Pointers deleted..."<<endl;
+    cout<<"Luiza Protection Program Canceled"<<endl;
+    cout<<"Galileo process killed"<<endl;
+    cout<<"Process Shutdown......"<<endl;
 }
 
 size_t CharPointer::get_size() {
@@ -69,7 +72,7 @@ size_t CharPointer::get_size() {
 
 
 int main() {
-    CharPointer output {"Luiza's coordinates at 23:10: 45.7966227,20.7199777,21"};
+    CharPointer output {"Luiza's coordinates at 13:01: 45.7966227,20.7199777,21"};
     cout<<output<<endl;
 
     return 0;
