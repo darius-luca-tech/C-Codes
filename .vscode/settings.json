@@ -23,6 +23,7 @@
         "cstring": "cpp",
         "ctime": "cpp",
         "cwchar": "cpp",
-        "locale": "cpp"
+        "locale": "cpp",
+        "cmath": "cpp"
     }
 }

@@ -95,10 +95,14 @@ void LinkedLists::del() {
 
 int main() {
     LinkedLists lista;
-    lista.add_node(1);
     lista.add_node(2);
-    lista.add_node(65);
-    lista.display(lista.get_head());
+    lista.add_node(1);
+    lista.add_node(10);
+    lista.add_node(15);
+    lista.del();
+    lista.add_node(4);
+    lista.del();
+    lista.add_node(20);
     lista.del();
     lista.display(lista.get_head());
 

@@ -1,0 +1,6 @@
+5 6
+caiete
+calcul
+aparat
+cabinet
+calculator
