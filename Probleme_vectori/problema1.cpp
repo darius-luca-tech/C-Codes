@@ -3,39 +3,46 @@
 using namespace std;
 
 fstream fin("in.txt", ios::in);
-void display(int nr_vec, int *p) {
-    for(int i = 0; i < nr_vec; ++i) {
-        cout<<*(p+i)<<" ";
+
+void display(int *v, int n) {
+    for(int i = 0; i < n; ++i) {
+        cout<<v[i]<<" ";
     }
     cout<<endl;
 }
 
 int main() {
-    int nr_vec, n, i=0, aux;
-    fin>>nr_vec;
-    int *p = (int *)malloc(nr_vec * sizeof(int));
+    //x - marimea vectorului
+    //nr - un element din vector
+    int x, i = 0, nr, aux;
+    fin>>x;
+    int v[x];
 
-    while(fin>>n) {
-        *(p+i) = n;
+    while(fin>>nr) {
+        v[i] = nr;
         ++i;
     }
-    display(nr_vec, p);
 
-    aux = *(p + 0);
-    for(i = 0; i < nr_vec / 2 - 1; ++i) { //permutare la stanga
-        *(p + i) = *(p + i + 1);
+    cout<<v[x / 2]<<endl;
+    display(v, x);
+
+    aux = v[0];
+    for(int i = 0; i < x / 2; ++i) {
+        v[i] = v[i + 1];
     }
-    *(p+n-1) = aux;
-    display(nr_vec, p);
+    v[x / 2] = aux;
 
-    aux = *(p+n-1);
-    for(i = nr_vec / 2 - 2; i >= 0 ; --i) {
-        *(p+i) = *(p+i-1);
+    display(v, x);
+
+    aux = v[x - 1];
+    for(int i = x - 1; i >= x / 2; --i) {
+        v[i] = v[i - 1];
     }
-    *p = aux;
-    display(nr_vec, p);
+    v[x / 2] = aux;
 
-    free(p);
-    p = nullptr;
+    display(v, x);
+
+
+
     return 0;
 }
