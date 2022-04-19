@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C_Codes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Work&amp;Projects/C-Codes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Codes">
+				<Option output="D:/Work&amp;Projects/C-Codes/cmake-build-debug/C_Codes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Work&amp;Projects/C-Codes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Work&amp;Projects/C-Codes/."/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Codes"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_Codes/fast">
+				<Option output="D:/Work&amp;Projects/C-Codes/cmake-build-debug/C_Codes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Work&amp;Projects/C-Codes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Work&amp;Projects/C-Codes/."/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_Codes/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Work&amp;Projects/C-Codes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Work&amp;Projects/C-Codes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Work&amp;Projects/C-Codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Algoritmi_interclasare/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Algoritmi_interclasare/problema2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Algoritmi_interclasare/problema3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Algoritmi_interclasare/problema4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Backtracking/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_algoritmica/itec.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_algoritmica/itec1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_algoritmica/perechipare.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_matrice1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_matrice2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_recursivitate.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_recursivitate1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_sir1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII3_1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII_1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII_1_2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII_1_3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII_1_4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII_2_1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII_2_2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII_2_3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subIII_3_3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/problema_subiectIII_3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/probleme_matrice3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/probleme_recursivitate2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_bac/probleme_subp1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_brainly/sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_class/cmmd.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_class/linear_list.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_class/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_class/problema2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_class/problema3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_class/problema4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_class/stack.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_1/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_1_Solution/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_2/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_2_Solution/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_3/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_3_Solution/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_4/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_4_Solution/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_5/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Challenge_5_Solution/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/CopyFile_2/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Manip_Base/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Manip_Boolean/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Manip_Fields/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/Manip_Floating/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_1/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_2/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_3/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/ReadFile_4/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/StringStream/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/WriteFIle_2/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Files/Source-codes-Section-19-IO-and-Streams/Section19/WriteFile_1/main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/Test/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/first_step.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema10.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema11.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema12.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema13.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema14.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema15.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema5.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema6.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema7.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema8.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_fisiere/problema9.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/afisare_inversa.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/cautare_element.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/cea_mai_mare_suma.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/deasupra_diagonalei_principale_1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/diag_principala_elem.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/diagonala_principala.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/diagonala_secundara.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/elemente_pos_neg_nul.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/eliminare_valoare.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/exercitiu_7_mai.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/inserare_valoare.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/inversare_vector.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/matrice-Bidimensionala_suma.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/matrice_unidimensionala_suma_pozitii.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/max_min.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/max_min_mat.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/max_multiplu.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/maxim_vector.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/permutare_circulara_dreapta.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/permutarea_circulara_stanga.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema11_mai.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema5_bac.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema_18mai.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema_28mai.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema_bac.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema_bac2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema_bac3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema_bac4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema_fundamentali.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema_sortare_p_1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/problema_x_scade_valoare_par.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/probleme.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/prod_mat.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/reluare_problema_28mai.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/sortare_matrice_2d.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/stergere_linie_coloana.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/suma_elem.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/suma_prod.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/test.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/test2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/text.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_informatica/tot_despre_matrice_patratica.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema10.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema11.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema12.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema13.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema14.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema15.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema16.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema17.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema18.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema19.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema20.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema21.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema22.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema23.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema24.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema25.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema5.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema6.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema7.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema8.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/problema9.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/probleme26.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_matrici/stergere_inserare_rand_coloana.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_recursivitate/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_recursivitate/problema2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Functii_siruri/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Functii_siruri/strcat_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Functii_siruri/strchr_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Functii_siruri/strcmp_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Functii_siruri/strcpy_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Functii_siruri/strlen_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Functii_siruri/strtok_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/LuizaProtectionProgram_main.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Prezentare_clasa/exemplu_strchr.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Prezentare_clasa/strchr_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Prezentare_clasa/strcmp_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Prezentare_clasa/strrchr_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/Prezentare_clasa/strstr_sir.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema1.ii">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema10.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema11.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema12.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema13.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema14.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema15.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema16.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema17.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema18.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema19.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema20.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema21.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema22.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema23.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema24.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema25.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema5.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema7.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema8.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/problema9.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_siruri/probleme6.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_structs/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema10.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema11.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema12.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema13.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema14.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema15.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema16.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema17.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema5.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema6.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema8.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_subprpgrame/problema9.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_vectori/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_vectori/problema2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_vectori/problema3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_vectori/problema4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_vectori/problema5.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_vectori/problema6.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_vectori/problema7.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/Probleme_vectori/problema8.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/aiurea.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/area_circle.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/cash_back.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/custom.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/descompunere_nr_prime.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/exercies.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/exerciesII.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/exercitii.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/exercitiiIII.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/exercitiiIV.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/file_saver.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/first_program.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/iTec/Cristea_Luca_P1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/iTec/Cristea_Luca_P4.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/iTec/problema1.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/iTec/problema2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/iTec/problema3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/matrice.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/max_min.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/mod_calculator.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/model.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/model2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/model3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/numere_consecutive.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/pascal_triangle.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/phone_number.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/polinomial.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/probleme.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/probleme_2.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/programul_fianl.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/reverse_number.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/sir_numere_prime.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/sqrt.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/sum_numbers_mod.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/sum_of_three_numbers.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/suma_nr_pare_impare.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/test.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/test3.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/test_danut.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/triunghi_complexa.cpp">
+			<Option target="C_Codes"/>
+		</Unit>
+		<Unit filename="D:/Work&amp;Projects/C-Codes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

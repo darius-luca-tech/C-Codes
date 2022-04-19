@@ -39,6 +39,7 @@ int identice(int n) {
 
     return 0;
 }
+
 int a[10][10];
 void matrice(int n, int m) {
 
